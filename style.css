@@ -2,15 +2,134 @@
 
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,600;0,800;1,400&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(./assets/background-image1.png);
+	background-position: right;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+	font-family: Nunito Sans;
+
+
+
+}
+
+a {
+	text-decoration: none;
+	color: lightskyblue;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
-	top: 750px;
+	margin-top: 40px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+	color: black;
+
+	margin-bottom: 30px;
+
+}
+
+h1 {
+	color: black;
+	text-shadow: 1px 5px gray;
+
+	font-weight: bolder;
+	font-size: 50px;
+	margin-left: 40px;
+	margin-top: 40px;
+
+}
+
+p {
+	color: rgba(155, 148, 148, 0.877);
+	padding: 3px;
+	margin: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+table {
+	padding: 40px;
+	height: 350px;
+	width: 850px;
+	justify-items: flex-start;
+	border: 0px solid gray;
+	border-collapse: collapse;
+	background-color: white;
+	margin: 20px 40px;
+}
+
+
+tr {
+
+	display: flex;
+	justify-items: flex-start;
+	border: 0.3px solid rgb(216, 208, 208);
+	border-collapse: collapse;
+
+
+
+
+}
+
+
+
+#firstimg {
+	justify-items: right;
+	height: 80px;
+	width: 160px;
+	display: flex;
+	margin-top: 50px;
+	margin-right: 170px;
+	margin-left: 1000px;
+	justify-items: flex-end;
+
+
+}
+
+td {
+	justify-content: center;
+}
+
+.firstrow {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(240, 91, 33);
+	color: white;
+
+
+}
+
+table tr {
+	justify-content: space-between;
+	text-align: center;
+	padding: 5px;
+
+
+}
+
+.blue {
+	color: lightskyblue;
+
+}
+
+.gray {
+	color: rgb(58, 56, 56);
+	font-weight: lighter;
 }
